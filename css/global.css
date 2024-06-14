@@ -56,8 +56,8 @@ a:visited, a:link, a:active {
     display: flex;
     justify-content: center;
     width: 30em;
-    gap: 3em;
-    padding-left: 15em;
+    gap: 1em;
+    padding-left: 10em;
 }
 
 .nav a:hover {

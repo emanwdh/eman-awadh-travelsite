@@ -1,0 +1,32 @@
+.hero {
+    padding: 10em 5em;
+    display: flex;
+    align-items: center;
+    background-color: #FEFAF5;
+    gap: 10em;
+
+}
+
+.hero__cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 45em;
+}
+
+.hero__sub {
+    color: #335576;
+}
+
+.hero__button {
+    width: 10em;
+    padding: .5em 1em;
+    border-radius: 10em;
+    border: none;
+    background-color: #DB7A4E;
+    color: white;
+}
+
+.hero__image {
+    width: 30em;
+}
