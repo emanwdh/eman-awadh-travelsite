@@ -9,6 +9,7 @@
     font-size: 16px;
 }
 
+
 img {
     max-width: 100%;
 }
@@ -68,3 +69,53 @@ a:visited, a:link, a:active {
     border-bottom: 0.2em solid #DB7A4E;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+    align-items: center;
+    height: 12em;
+    background-color: #FEFAF5;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-item__info {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5em;
+}
+
+.footer-item__subtitle {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #DB7A4E;
+}
+
+.footer-item__sub-info {
+    color: #335576;
+    font-size: 1rem;
+}
+
+.footer-item__grouping {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.footer-item__icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding-top: 0.5em;
+}
+
+/*figure out how to align footer-item__titles without using top paddding on footer-item__icons*/
+
+.footer-item__icon img {
+    max-height: 1.5em;
+}
