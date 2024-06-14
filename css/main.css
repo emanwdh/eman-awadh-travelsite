@@ -30,3 +30,52 @@
 .hero__image {
     width: 30em;
 }
+
+.rec {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+.rec__group {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+
+}
+
+/*find out a better way to do this*/
+
+.rec__card {
+    width: 20em; 
+    height: 30em;
+    position: relative; 
+    box-shadow: 0px 4px 4px rgba(0 0 0/ 20%);
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2)
+}
+
+.rec__card--1 {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+}
+
+.rec__card--2 {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: cover;
+}
+
+.rec__card--3 {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: cover;
+}
+
+.rec__title {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    color: white;
+}
+
+/* Check shorthand for position*/

@@ -44,12 +44,11 @@ a:visited, a:link, a:active {
     position: fixed;
     z-index:100;
     width: 100%;
+    gap: 25em;
 }
 
 .header__logo {
     color: #335576;
-    padding-right: 30em;
-
 }
 
 .nav ul {
