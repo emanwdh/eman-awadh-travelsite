@@ -4,6 +4,32 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main-destination__2 {
+    padding: 10em 5em 5em 5em;
+    background-image: url(../assets/images/iceland.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.main-destination__3 {
+    padding: 10em 5em 5em 5em;
+    background-image: url(../assets/images/greece.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .destination__title {
