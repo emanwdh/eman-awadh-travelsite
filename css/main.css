@@ -25,6 +25,13 @@
     border: none;
     background-color: #DB7A4E;
     color: white;
+    transition: background-color .3s;
+}
+
+.hero__button:hover {
+    background-color: rgba(128, 108, 99, 0.5);
+    font-weight: bold;
+
 }
 
 .hero__image {
