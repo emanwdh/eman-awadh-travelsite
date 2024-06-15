@@ -1,0 +1,37 @@
+.main {
+    padding: 10em 5em;
+    height: 32em;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(237, 238, 239)
+
+}
+
+.section__booking {
+    height: 100%;
+}
+
+.form__group {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #335576;
+    width: 30em;
+    height: 20em;
+    justify-content: center;
+    border-radius: 2em;
+    gap: 2em;
+
+}
+
+.form__group  h1 {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.form__multi-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}

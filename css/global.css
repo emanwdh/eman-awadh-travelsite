@@ -37,6 +37,12 @@ a:visited, a:link, a:active {
     
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -74,6 +80,29 @@ a:visited, a:link, a:active {
 .nav a:active {
     padding-bottom: 0.5em;
     border-bottom: 0.2em solid #DB7A4E;
+}
+
+form input, select {
+    width: 14em;
+    border: none;
+    border-radius: 10em;
+    height: 2em;
+    padding: 1em 2em;
+}
+button {
+    width: 10em;
+    padding: .5em 1em;
+    border-radius: 10em;
+    border: none;
+    background-color: #DB7A4E;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(128, 108, 99, 0.5);
+    font-weight: bold;
+
 }
 
 .footer {
