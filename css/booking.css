@@ -11,6 +11,11 @@
     height: 100%;
 }
 
+.booking__button:hover {
+    background-color:aliceblue;
+    color: black;
+}
+
 .form__group {
     display:flex;
     flex-direction: column;
@@ -35,3 +40,4 @@
     align-items: center;
     gap: 1em;
 }
+

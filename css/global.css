@@ -82,6 +82,10 @@ body {
     border-bottom: 0.2em solid #DB7A4E;
 }
 
+label {
+    color: white;
+}
+
 form input, select {
     width: 14em;
     border: none;
@@ -96,7 +100,7 @@ button {
     border: none;
     background-color: #DB7A4E;
     color: white;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 
 button:hover {
@@ -110,7 +114,7 @@ button:hover {
     justify-content: center;
     gap: 8em;
     align-items: center;
-    height: 12em;
+    min-height: 12em;
     background-color: #FEFAF5;
 }
 
@@ -150,8 +154,8 @@ button:hover {
     padding-top: 0.5em;
 }
 
-/*figure out how to align footer-item__titles without using top paddding on footer-item__icons*/
 
 .footer-item__icon img {
     max-height: 1.5em;
 }
+

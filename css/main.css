@@ -38,8 +38,6 @@
 
 }
 
-/*find out a better way to do this*/
-
 .rec__card {
     width: 20em; 
     height: 30em;
@@ -83,12 +81,8 @@
 
 .rec__title {
     position: absolute;
-    right: 1em;
-    bottom: 1em;
+    right: 1em; bottom: 1em;
     color: white;
     padding-bottom: 0.5em;
     border-bottom: 2px solid white;
 }
-
-
-/* Check shorthand for position*/
